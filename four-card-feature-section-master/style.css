@@ -14,11 +14,13 @@
   --darkBlue: hsl(234, 12%, 34%);
   --grayBlue: hsl(229, 6%, 66%);
   --lightGray: hsl(0, 0%, 98%);
+
+  --ff:'Poppins',sans-serif;
 }
 
 body,
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--ff);
   font-size: 15px;
   color: var(--darkBlue);
   background-color: var(--lightGray);
